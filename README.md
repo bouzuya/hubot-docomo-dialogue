@@ -4,14 +4,13 @@ A Hubot script that calls the [docomo dialogue API](https://dev.smt.docomo.ne.jp
 
 ## Installation
 
-    $ npm install git://github.com/bouzuya/hubot-docomo-dialogue.git
+    $ npm install https://github.com/bouzuya/hubot-docomo-dialogue/archive/master.tar.gz
 
 or
 
-    $ # TAG is the package version you need.
-    $ npm install 'git://github.com/bouzuya/hubot-docomo-dialogue.git#TAG'
+    $ npm install https://github.com/bouzuya/hubot-docomo-dialogue/archive/{VERSION}.tar.gz
 
-## Sample Interaction
+## Example
 
     bouzuya> こまった
     hubot> どうした
@@ -22,26 +21,34 @@ or
     bouzuya> 黙れってば
     bouzuya> そこで黙るのかよ
 
-See [`src/scripts/docomo-dialogue.coffee`](src/scripts/docomo-dialogue.coffee) for full documentation.
+## Configuration
+
+See [`src/scripts/docomo-dialogue.coffee`](src/scripts/docomo-dialogue.coffee).
+
+## Development
+
+See `npm run`
 
 ## License
 
 [MIT](LICENSE)
 
-## Development
+## Author
 
-### Run test
-
-    $ npm test
-
-### Run robot
-
-    $ npm run robot
-
+[bouzuya][user] &lt;[m@bouzuya.net][mail]&gt; ([http://bouzuya.net][url])
 
 ## Badges
 
-[![Build Status][travis-status]][travis]
+[![Build Status][travis-badge]][travis]
+[![Dependencies status][david-dm-badge]][david-dm]
+[![Coverage Status][coveralls-badge]][coveralls]
 
 [travis]: https://travis-ci.org/bouzuya/hubot-docomo-dialogue
-[travis-status]: https://travis-ci.org/bouzuya/hubot-docomo-dialogue.svg?branch=master
+[travis-badge]: https://travis-ci.org/bouzuya/hubot-docomo-dialogue.svg?branch=master
+[david-dm]: https://david-dm.org/bouzuya/hubot-docomo-dialogue
+[david-dm-badge]: https://david-dm.org/bouzuya/hubot-docomo-dialogue.png
+[coveralls]: https://coveralls.io/r/bouzuya/hubot-docomo-dialogue
+[coveralls-badge]: https://img.shields.io/coveralls/bouzuya/hubot-docomo-dialogue.svg
+[user]: https://github.com/bouzuya
+[mail]: mailto:m@bouzuya.net
+[url]: http://bouzuya.net
