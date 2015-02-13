@@ -1,1 +1,5 @@
+.hubot_history
+.tmp
+*.log
+coverage
 node_modules
