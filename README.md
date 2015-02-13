@@ -26,7 +26,7 @@ See [`src/scripts/docomo-dialogue.coffee`](src/scripts/docomo-dialogue.coffee) f
 
 ## License
 
-MIT
+[MIT](LICENSE)
 
 ## Development
 
